@@ -9,7 +9,7 @@ import org.anverb.todo.core.model.IConfigurableTask;
  * @author Anver
  * @version 0.1, 09.06.13
  */
-public class BaseTask implements IConfigurableTask {
+public class BaseTask extends BaseEntity implements IConfigurableTask {
     /**
      * Task name.
      */
